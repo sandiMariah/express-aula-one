@@ -1,11 +1,12 @@
 const express = require('express');
-const app = express();
-const port = 3000;
+const mariah = express();
+const nao = 3000;
 
-app.get('/', (req, res) => {
-  res.send('mariah muy encantada');
+mariah.get('/otracoisa', (req, res) => {
+  res.send('mariah muy bunita');
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+mariah.listen(nao, () => {
+  console.log(`Example app listening on port ${nao}`);
 });
+
